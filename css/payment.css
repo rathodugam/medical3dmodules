@@ -72,8 +72,10 @@ a:hover {
     z-index: 2;
     background: white;
   }
-  
-  .container {
+  ol li {
+    list-style: none;
+  }
+  .slide {
     max-width: 880px;
     padding: 20px 10px;
     margin: 0 auto;

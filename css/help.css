@@ -4,9 +4,9 @@ body {
     font-size: 100%;
     background: #fff;
     font-family: 'Muli', sans-serif;
+    scroll-behavior: smooth;
    
 }
-
 body a {
     cursor: pointer;
     text-decoration: none;
@@ -24,6 +24,24 @@ a:hover {
 .bg-dark {
     background-color: #854768 !important
 }
+.nav-item a {
+    color: #fff !important;
+    margin: 7px;
+    font-size: 18px;
+}
+.nav-item a:hover {
+    color: #9aa100 !important;
+}
+.head-social-icon{
+    font-size: 22px;
+    margin: 10px;
+}
+.head-social-icon i {
+    color: white !important;
+}
+.head-social-icon i:hover{
+    color: #9aa100 !important;
+}
 
 /*-- services --*/
 
@@ -40,25 +58,25 @@ a:hover {
 
 .services-inner {
     border: 2px solid #7a7a7a;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     transition: .3s;
     background: #fff
 }
 
-.our-services-img {
+/* .our-services-img {
     float: left;
     margin-left: -36px;
     margin-right: 8px;
     margin-top: 45px;
     text-align: center;
-}
+} */
 
-.our-services-img span.fa {
+/* .our-services-img span.fa {
     width: 68px;
     font-size: 40px;
     color: gray;
     background: #fff;
-}
+} */
 
 .our-services-text {
     padding-right: 10px;
@@ -67,6 +85,8 @@ a:hover {
 .our-services-text {
     overflow: hidden;
     padding: 28px 0 25px;
+    padding: 18px;
+    text-align: center;
 }
 
 .our-services-text h4 {
@@ -138,7 +158,8 @@ a:hover {
     padding: 10px;
 }
 .about-text{
-    text-align: justify;
+    justify-content: center;
+    text-transform: uppercase;
 }
 /*--//end about us --*/
 
